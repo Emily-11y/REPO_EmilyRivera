@@ -3,10 +3,25 @@ package ESTRUCTURAS_SELECTIVAS;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Emily R
- */
+/**IfSimple.java – Control de acceso por edad
+
+* Problema: Solicite al usuario su edad (entero).
+Si la edad es mayor o igual a 18, muestre: Acceso permitido.
+Si no, no muestre nada adicional.
+
+Requisitos:
+
+Validar que la edad sea >= 0. Si no lo es, mostrar Edad inválida.
+Usar if simple (sin else para el caso “menor a 18”).
+Ejemplo (entrada → salida):
+
+18 → Acceso permitido
+-2 → Edad inválida 
+ * 
+ * @author EMILY RIVERA
+ * @version 1.0 */
+
+
 public class IF_SIMPLE {
 
     public static void main(String[] args) {
